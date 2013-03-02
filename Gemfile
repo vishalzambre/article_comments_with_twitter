@@ -6,6 +6,7 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -23,7 +24,7 @@ end
 gem 'will_paginate'
 gem 'jquery-rails'
 gem 'devise'
-
+gem 'simple_form'
 # gem 'devise-twitter'
 # gem 'twitter', '~> 1.0.0'
 gem 'omniauth' # for twitter authentication
